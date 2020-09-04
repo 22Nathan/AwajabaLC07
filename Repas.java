@@ -13,6 +13,14 @@ public class Repas {
 		this.date = date;
 	}
 
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
 	public int getNumero() {
 		return numero;
 	}
